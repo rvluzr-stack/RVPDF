@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('header.css');
+@import url('footer.css');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        .cta {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center; 
+        }
+
+        #cta_buttons {
+            position: absolute;
+            margin-left: 1050px;
+            margin-top: 490px;
+        }
+
+#cta_buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        text-align: center;
+        margin-left: 60px;
+        margin-top: -20px;
+}
+
+        .book-cover {
+            max-width: 200px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .book-image {
+            max-width: 22%;
+            position: absolute;
+            margin-left: 640px;
+            margin-top: -100px;
+        }
+
+        h1 { 
+            color: #2c3e50; 
+            font-size: 2.2rem; 
+            margin-bottom: 10px; 
+        }
+
+        .description { 
+            font-size: 1.1rem; 
+            color: #666; 
+            margin-bottom: 30px; 
+        }
+
+        .form-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            text-align: left; /* Alinha os campos à esquerda */
+            margin-left: 0px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        /* Estilo para os campos de texto e email */
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Impede que o campo saia do container */
+            font-family: inherit;
+        }
+
+            .btn {
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            transition: opacity 0.3s ease;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+        }
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e74c3c;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+    color: var(--color-primary-1);
+}
+
+.btn-default:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 14px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.btn-download { background-color: #e74c3c; margin-top: 10px; }
+
+.btn:hover { opacity: 0.8; }
+        
+footer { margin-top: 50px; font-size: 0.9rem; color: #999; }
+
+
+.media-buttons {
+    display: flex;
+    gap: 18px;
+    margin-left: 300px;
+    color: white;
+}
+
+.media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #e74c3c;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    caret-color: white;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease, background-color .3s ease, transform .25s cubic-bezier(.4,0,.2,1);
+}
+
+.media-buttons a:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 14px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.fa-whatsapp {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/Styles/styles.css" id="">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>A Interface do MA2</title>
+
+</head>
+
+<body>
+
+    <header>
+
+    <nav id="navbar">
+        <img src="src/Images/RVLUZ.png" class="rvluz" id="nav_logo"> 
+        <ul>
+            <li class="nav-item"><a href="https://api.whatsapp.com/send/?phone=5516997782951&text&type=phone_number&app_absent=0">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="cta"> 
+
+        <h1>APRENDA A CRIAR SEU PRIMEIRO SHOW</h1>
+        <p class="description">
+           Não dependa mais de Showfiles comprados, entenda de uma vez os fundamentos básicos do GrandMA2 e se torne um mestre nele!
+        </p>
+    </div>
+
+    <main>
+    <div class="container">
+
+        <div>
+            <img src="src/Images/livro.png" alt="PDF" class="book-image">
+            <div id="cta_buttons">
+                    <a href="src/Downloads/MA2.pdf" class="btn-default">
+                        Download do Arquivo
+                    </a>
+            </div>
+
+        <div class="form-container">
+            <form action="https://formspree.io/f/xzdjoyzn" method="POST" target="_blank">
+                
+                <div class="form-group">
+                    <label for="email">E-mail de contato:</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@gmail.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">WhatsApp ou Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="+55 19 0000-0000" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="interesses">Nos diga o que você gostaria de aprender no futuro?</label>
+                    <textarea id="interesses" name="interesses" rows="3" placeholder="Ex: Tutoriais práticos, aulas em vídeo, novos e-books..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-download">
+                    ENVIAR
+                </button>
+            </form>
+        </div>
+
+        <p>Nos acompanhe nas redes sociais:</p>
+        
+        <div class="media-buttons">
+                    <a href="https://api.whatsapp.com/send/?phone=5516997782951&text&type=phone_number&app_absent=0" target="_blank"> 
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/rvluz.evento/" target="_blank"> 
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                </div>
+    </div>
+    </main>
+
+     <footer>
+        <img src="src/Images/wave.svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">
+                Todos os direitos reservados à <b>RV LUZ</b> &copy 2026
+            </span>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
