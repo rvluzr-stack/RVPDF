@@ -182,3 +182,48 @@ footer { margin-top: 50px; font-size: 0.9rem; color: #999; }
 .fa-instagram {
     color: white;
 }
+
+/* --- ESTILOS PARA DISPOSITIVOS MÓVEIS (CELULARES) --- */
+@media screen and (max-width: 768px) {
+    
+    /* Ajusta o container principal para ocupar a largura total */
+    .container {
+        max-width: 100%;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    /* Remove o posicionamento absoluto da imagem do livro e a centraliza */
+    .book-image {
+        position: static; /* Anula o absolute */
+        max-width: 60%;   /* Aumenta o tamanho para mobile */
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    /* Ajusta o botão de download para aparecer abaixo da imagem, sem margens gigantes */
+    #cta_buttons {
+        position: static; /* Anula o absolute */
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Centraliza os botões de redes sociais */
+    .media-buttons {
+        margin-left: 0;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    /* Ajusta o tamanho da fonte do título para telas menores */
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    /* Garante que o formulário use toda a largura disponível */
+    .form-container {
+        padding: 20px;
+        margin-left: 0;
+    }
+}
